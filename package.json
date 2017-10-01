@@ -1,0 +1,22 @@
+{
+  "name": "gulp-build-v1",
+  "version": "1.0.0",
+  "description": "a small project setting up a gulp enviornment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Boisselle",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}
