@@ -9,14 +9,21 @@
   "author": "Daniel Boisselle",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
-    "gulp-clean": "^0.3.2",
     "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.0",
     "gulp-imagemin": "^3.3.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.1",
     "gulp-uglify": "^3.0.0",
-    "gulp-webserver": "^0.9.1"
+    "gulp-uglifycss": "^1.0.8",
+    "gulp-useref": "^3.1.2"
+  },
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp-cache": "^0.4.6",
+    "gulp-replace": "^0.6.1"
   }
 }
